@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me Form</title>
+    <link rel="stylesheet" href="Contact.css">
+
+    <style>
+       
+
+
+        .card {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .form-group {
+            margin: 10px 0;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .col {
+            margin: 10px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label>Surname</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+
+            <div class="col">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
